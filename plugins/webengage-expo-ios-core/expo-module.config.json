@@ -1,0 +1,10 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["WebengageExpoIosCoreModule"],
+    "appDelegateSubscribers": ["WebEngageAppDelegate"]
+  },
+  "android": {
+    "modules": ["expo.modules.webengageexpoioscore.WebengageExpoIosCoreModule"]
+  }
+}
