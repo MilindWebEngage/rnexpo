@@ -41,3 +41,6 @@ android {
     abortOnError false
   }
 }
+dependencies {
+  api 'com.webengage:android-sdk:[4.4,)'
+}
